@@ -12,8 +12,9 @@ body{
 }
 
 .nav-left{
-    margin-left: px;
+    /* margin-left: px; */
     padding-left: 10px;
+    margin-top: 0px;
 }
 .nav-left h1{
     font-size: 50px;
@@ -23,11 +24,13 @@ body{
 }
 .nav-right{
     display: flex;
-    margin: 40px 0px;
+    margin-top: 40px;
+    margin-right: 60px;
 }
 .nav-right li{
  list-style: none;
  padding: 12px;
+ font-size: 20px;
 }
 .nav-right li a{
     text-decoration: none;
@@ -121,11 +124,52 @@ margin-top: 100px;
     box-shadow: 20px 40px 40px gray;
     padding: 15px;
     border-radius: 5px;
+    margin-top: 50px;
+    transition: 0.10;
+}
+.box1:hover{
+    margin-top:-25px;
+    transition: 0.10;
 }
 .title2{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
-g{
+.aboutus{
+    margin-top: 100px;
+}
+.about-container{
+    background-color: black;
+    border: 1px solid red;
+    display: flex;
+}
+.about-left{
+    margin: 0 30px;
+    color: whitesmoke;
+width: 600px;
+}
+.about-right{
     
+    margin-left: 30px;
+    width: 600px;
+display: flex;
+
+}
+.about-right img{
+    width: 400px;
+    height: 500px;
+    transform: skewY(15deg);
+}
+.workout{
+
+    height: 200px;
+    width: 650px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
